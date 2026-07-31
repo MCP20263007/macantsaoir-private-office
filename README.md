@@ -1,28 +1,27 @@
-# MacAntsaoir Capital Partners V3 Bright London
+# MacAntsaoir Capital Partners V4 Real London Photo
 
-This is the recommended brighter upload pack.
+This version uses the actual London skyline photo supplied by Paul as the hero background.
 
-## What changed from V2
+## What changed
 
-- The London skyline has been made significantly brighter.
-- The dark overlay has been reduced to a light luxury tint.
-- The skyline now has a dusk/golden-hour feel with clearer building shapes and stronger Thames reflections.
-- The Shard-style centre landmark is more visible.
-- Text readability is preserved with stronger text shadows instead of a heavy dark overlay.
-- All live branding remains MacAntsaoir Capital Partners.
-- No live Private Office wording appears in the active HTML, CSS, or current logo file.
+- Removed the illustrated SVG skyline from the live website.
+- Added the real photo as `assets/london-hero.jpg`.
+- Applied a very light navy overlay instead of darkening the whole image.
+- Retained strong text shadows so the headline remains readable.
+- Kept all live branding as MacAntsaoir Capital Partners.
+- No live Private Office wording appears in the active HTML, CSS, or logo file.
 
 ## Upload structure
 
-Upload the contents of the ZIP exactly like this:
+Upload the contents of this ZIP exactly like this:
 
 ```text
 index.html
 styles.css
 assets/macantsaoir-logo.svg
-assets/london-skyline-bright.svg
+assets/london-hero.jpg
 ```
 
-If GitHub Pages still shows the old version after upload, clear the browser cache or open the site in a private/incognito window.
+If GitHub Pages still shows an older skyline after upload, open the site in a private/incognito window or hard-refresh the page.
 
 Replace `info@example.com` in `index.html` with the correct contact email when ready.
