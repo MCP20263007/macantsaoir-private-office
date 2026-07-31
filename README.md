@@ -1,13 +1,16 @@
-# MacAntsaoir Capital Partners V7 No Logo Lines
+# MacAntsaoir Capital Partners V8 New Sections
 
-This version keeps the V6 mock-up-matching layout but removes the decorative lines around CAPITAL PARTNERS.
+This version replaces the old Our Principles, Investment Focus and Contact sections with the new uploaded layout.
 
-## V7 changes
+## V8 changes
 
-- Removed the gold line before CAPITAL PARTNERS.
-- Removed the gold line after CAPITAL PARTNERS.
-- Removed the small gold line underneath CAPITAL PARTNERS.
-- Kept the large logo treatment, real London hero photo, and updated wording.
+- Replaced the old principles section with a horizontal dark navy principles strip.
+- Added gold line icons for Preserve Capital, Think Long Term, Build Partnerships and Act with Discipline.
+- Replaced the old investment focus cards with six cream-background icon columns.
+- Replaced the old contact area with a dark navy Confidential Enquiries form.
+- Updated the footer to match the uploaded section style.
+- Kept the real London hero photo.
+- Kept the large MacAntsaoir Capital Partners logo with no decorative lines around CAPITAL PARTNERS.
 - No live Private Office wording appears in the active HTML, CSS, or current logo file.
 
 ## Upload structure
@@ -20,7 +23,5 @@ styles.css
 assets/macantsaoir-logo.svg
 assets/london-hero.jpg
 ```
-
-If GitHub Pages still shows the older version, open the site in a private/incognito window or hard-refresh the page.
 
 Replace `info@example.com` in `index.html` with the correct contact email when ready.
