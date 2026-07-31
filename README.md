@@ -1,15 +1,15 @@
-# MacAntsaoir Capital Partners V11 Off-White Focus Background
+# MacAntsaoir Capital Partners V12 Wider Investment Focus
 
-This version keeps the corrected V10 principles layout and changes the Investment Focus background to the warmer off-white colour used in the previous upload.
+This version widens and evens out the Investment Focus section.
 
-## V11 changes
+## V12 changes
 
-- Changed Investment Focus background to a flat warm off-white: `#eeeae2`.
+- Increased Investment Focus inner width from a compact layout to a wider 1420px layout.
+- Increased spacing inside each Investment Focus column.
+- Kept the off-white Investment Focus background: `#eeeae2`.
 - Kept all four principles visible on desktop.
 - Kept the corrected Build Partnerships handshake icon.
-- Kept the new Confidential Enquiries form.
-- Kept the real London hero photo.
-- Kept the large MacAntsaoir Capital Partners logo with no decorative lines around CAPITAL PARTNERS.
+- Kept the Confidential Enquiries form and real London hero photo.
 - No live Private Office wording appears in the active HTML, CSS, or logo file.
 
 ## Upload structure
