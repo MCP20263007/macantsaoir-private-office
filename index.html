@@ -1,61 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>MacAntsaoir Private Office</title>
-
-  <meta
-    name="description"
-    content="MacAntsaoir Private Office is a discreet private office and investment platform focused on disciplined capital, strategic partnerships and long-term value creation."
-  />
-
-  styles.css
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-
   <header class="site-header" id="top">
-    #top
-      mcp-logo.png
+    <a class="brand" href="#top" aria-label="MacAntsaoir Private Office home">
+      <img src="mcp-logo.png" alt="MacAntsaoir Private Office logo" class="brand-logo">
     </a>
-
-    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
-      Menu
-    </button>
-
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">Menu</button>
     <nav class="main-nav" aria-label="Main navigation">
-      #principlesPrinciples</a>
-      #focusFocus</a>
-      #contactContact</a>
+      <a href="#principles">Principles</a>
+      <a href="#focus">Focus</a>
+      <a href="#contact" class="nav-contact">Contact</a>
     </nav>
   </header>
 
   <main>
-
-    <section class="hero" aria-label="MacAntsaoir Private Office introduction">
+    <section class="hero">
       <div class="hero-shade"></div>
-
       <div class="hero-content">
-        mcp-logo.png
-
+        <img src="mcp-logo.png" alt="MacAntsaoir Private Office" class="hero-logo">
         <p class="eyebrow">Private Office</p>
-
-        <h1>
-          Disciplined Capital.<br />
-          Strategic Partnerships.<br />
-          Long-Term Value.
-        </h1>
-
-        <p class="hero-copy">
-          A discreet private office and investment platform focused on selective
-          opportunities, trusted relationships and considered capital deployment.
-        </p>
-
+        <h1>Disciplined Capital.<br>Strategic Partnerships.<br>Long-Term Value.</h1>
+        <p class="hero-copy">A discreet private office and investment platform focused on selective opportunities, trusted relationships and considered capital deployment.</p>
         <div class="hero-actions">
-          #focusInvestment Focus</a>
-          #contactContact Us</a>
+          <a href="#focus" class="button button-primary">Investment Focus</a>
+          <a href="#contact" class="button button-secondary">Contact Us</a>
         </div>
       </div>
     </section>
@@ -65,111 +39,37 @@
         <p class="section-kicker">Principles</p>
         <h2>Quiet discipline. Clear alignment. Enduring relationships.</h2>
       </div>
-
       <div class="principles-grid">
-        <article class="principle-card">
-          <h3>Discretion</h3>
-          <p>
-            We operate with confidentiality, professionalism and respect for
-            private capital, family interests and strategic transactions.
-          </p>
-        </article>
-
-        <article class="principle-card">
-          <h3>Alignment</h3>
-          <p>
-            We seek opportunities where interests are clearly aligned and
-            long-term value creation is prioritised over short-term activity.
-          </p>
-        </article>
-
-        <article class="principle-card">
-          <h3>Discipline</h3>
-          <p>
-            We apply careful judgement, commercial realism and structured
-            thinking to every relationship, opportunity and transaction.
-          </p>
-        </article>
-
-        <article class="principle-card">
-          <h3>Partnership</h3>
-          <p>
-            We work with founders, investors, families and advisers who value
-            trust, clarity and durable business relationships.
-          </p>
-        </article>
+        <article class="principle-card"><h3>Discretion</h3><p>We operate with confidentiality, professionalism and respect for private capital, family interests and strategic transactions.</p></article>
+        <article class="principle-card"><h3>Alignment</h3><p>We seek opportunities where interests are clearly aligned and long-term value creation is prioritised over short-term activity.</p></article>
+        <article class="principle-card"><h3>Discipline</h3><p>We apply careful judgement, commercial realism and structured thinking to every relationship, opportunity and transaction.</p></article>
+        <article class="principle-card"><h3>Partnership</h3><p>We work with founders, investors, families and advisers who value trust, clarity and durable business relationships.</p></article>
       </div>
     </section>
 
     <section id="focus" class="focus-section section-pad">
       <div class="focus-intro">
         <p class="section-kicker">Investment Focus</p>
-        <h2>
-          Selective private opportunities supported by experience,
-          relationships and patient capital.
-        </h2>
+        <h2>Selective private opportunities supported by experience, relationships and patient capital.</h2>
       </div>
-
       <div class="focus-grid">
-        <article>
-          <span>01</span>
-          <h3>Private Capital</h3>
-          <p>
-            Selective capital opportunities involving private companies,
-            strategic assets and founder-led businesses.
-          </p>
-        </article>
-
-        <article>
-          <span>02</span>
-          <h3>Advisory</h3>
-          <p>
-            Strategic guidance for owners, investors and families considering
-            growth, transition, acquisition or exit planning.
-          </p>
-        </article>
-
-        <article>
-          <span>03</span>
-          <h3>Partnerships</h3>
-          <p>
-            Long-term commercial relationships built around trust, discretion
-            and aligned objectives.
-          </p>
-        </article>
+        <article><span>01</span><h3>Private Capital</h3><p>Selective capital opportunities involving private companies, strategic assets and founder-led businesses.</p></article>
+        <article><span>02</span><h3>Advisory</h3><p>Strategic guidance for owners, investors and families considering growth, transition, acquisition or exit planning.</p></article>
+        <article><span>03</span><h3>Partnerships</h3><p>Long-term commercial relationships built around trust, discretion and aligned objectives.</p></article>
       </div>
     </section>
 
     <section id="contact" class="contact-section section-pad">
-      <div class="contact-copy">
-        <p class="section-kicker">Contact</p>
-        <h2>Confidential enquiries</h2>
-        <p>
-          For private enquiries, partnership discussions or strategic
-          introductions, please use the contact form.
-        </p>
-      </div>
-
-      info@macantsaoir.com
-        <label for="name">Name</label>
-        <input id="name" name="name" type="text" placeholder="Your name" />
-
-        <label for="email">Email</label>
-        <input id="email" name="email" type="email" placeholder="Your email address" />
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message" rows="6" placeholder="Your message"></textarea>
-
+      <div class="contact-copy"><p class="section-kicker">Contact</p><h2>Confidential enquiries</h2><p>For private enquiries, partnership discussions or strategic introductions, please use the contact form.</p></div>
+      <form class="contact-form" action="mailto:info@macantsaoir.com" method="post" enctype="text/plain">
+        <label for="name">Name</label><input id="name" name="name" type="text" placeholder="Your name">
+        <label for="email">Email</label><input id="email" name="email" type="email" placeholder="Your email address">
+        <label for="message">Message</label><textarea id="message" name="message" rows="6" placeholder="Your message"></textarea>
         <button type="submit">Send Enquiry</button>
       </form>
     </section>
-
   </main>
-
-  <footer class="site-footer">
-    <p>&copy; 2026 MacAntsaoir Private Office. All rights reserved.</p>
-  </footer>
-
-  script.jsscript>
+  <footer class="site-footer"><p>&copy; 2026 MacAntsaoir Private Office. All rights reserved.</p></footer>
+  <script src="script.js"></script>
 </body>
 </html>

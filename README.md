@@ -1,13 +1,3 @@
-# MacAntsaoir Private Office landing page
+# MacAntsaoir Private Office
 
-Clean GitHub Pages website package.
-
-## Files
-- index.html
-- styles.css
-- script.js
-- images/london-skyline.jpg
-- images/MCP Logo.png
-
-## Important
-Upload your two image files into the `images` folder using the exact names above.
+Upload these files to the root of the repository. Rename images exactly: mcp-logo.png and london-skyline.jpg.
