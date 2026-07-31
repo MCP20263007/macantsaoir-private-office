@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="MacAntsaoir Capital Partners logo">
+  <rect width="720" height="360" fill="none"/>
+  <g fill="none" stroke="#d6a64b" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M360 42 L272 94 H448 Z" fill="#d6a64b" stroke="none"/>
+    <path d="M290 112 H430"/><path d="M310 132 V220"/><path d="M360 132 V220"/><path d="M410 132 V220"/><path d="M282 238 H438"/>
+  </g>
+  <text x="360" y="294" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-size="54" letter-spacing="5" fill="#d6a64b" font-weight="600">MACANTSAOIR</text>
+  <text x="360" y="332" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-size="24" letter-spacing="9" fill="#d6a64b" font-weight="500">CAPITAL PARTNERS</text>
+</svg>
