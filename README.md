@@ -1,17 +1,17 @@
-# MacAntsaoir Capital Partners V5 Logo Prominent
+# MacAntsaoir Capital Partners V6 Mock-up Match
 
-This version uses the real London photo supplied by Paul and adjusts the hero section as requested.
+This version adjusts the hero section to match the uploaded visual reference more closely.
 
-## V5 changes
+## V6 changes
 
-- Removed the standalone words `Capital Partners` above the main headline.
-- Increased the central logo size so the brand is more prominent.
-- Reduced the size of the main wording:
-  - Disciplined Capital.
-  - Strategic Partnerships.
-  - Long-Term Value.
-- Kept the real London photo as `assets/london-hero.jpg`.
-- Kept all live branding as MacAntsaoir Capital Partners.
+- Uses the real London photo as `assets/london-hero.jpg`.
+- Enlarges the central logo substantially, making the brand the main focal point.
+- Restores the logo treatment with icon, large MACANTSAOIR wordmark, CAPITAL PARTNERS beneath, gold side rules and a lower divider.
+- Removes the separate standalone `Capital Partners` line above the headline.
+- Changes the main wording to `Stewardship of Capital. / Legacy of Purpose.`
+- Updates the supporting copy to match the uploaded reference.
+- Reduces the headline size for a more elegant family office/private investment aesthetic.
+- Keeps all live branding as MacAntsaoir Capital Partners.
 - No live Private Office wording appears in the active HTML, CSS, or current logo file.
 
 ## Upload structure

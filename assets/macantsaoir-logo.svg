@@ -1,9 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 360" role="img" aria-label="MacAntsaoir Capital Partners logo">
-  <rect width="720" height="360" fill="none"/>
-  <g fill="none" stroke="#d6a64b" stroke-width="12" stroke-linecap="square" stroke-linejoin="miter">
-    <path d="M360 42 L272 94 H448 Z" fill="#d6a64b" stroke="none"/>
-    <path d="M290 112 H430"/><path d="M310 132 V220"/><path d="M360 132 V220"/><path d="M410 132 V220"/><path d="M282 238 H438"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 560" role="img" aria-label="MacAntsaoir Capital Partners logo">
+  <rect width="1000" height="560" fill="none"/>
+  <g fill="none" stroke="#d6a64b" stroke-width="14" stroke-linecap="square" stroke-linejoin="miter">
+    <path d="M500 48 L392 142 H608 Z" fill="none"/>
+    <path d="M365 162 H635"/>
+    <path d="M410 196 V312"/>
+    <path d="M500 196 V312"/>
+    <path d="M590 196 V312"/>
+    <path d="M392 340 H608"/>
   </g>
-  <text x="360" y="294" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-size="54" letter-spacing="5" fill="#d6a64b" font-weight="600">MACANTSAOIR</text>
-  <text x="360" y="332" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-size="24" letter-spacing="9" fill="#d6a64b" font-weight="500">CAPITAL PARTNERS</text>
+  <text x="500" y="428" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-size="82" letter-spacing="12" fill="#d6a64b" font-weight="500">MACANTSAOIR</text>
+  <line x1="88" y1="474" x2="222" y2="474" stroke="#d6a64b" stroke-width="3"/>
+  <text x="500" y="488" text-anchor="middle" font-family="Cinzel, Georgia, serif" font-size="31" letter-spacing="18" fill="#f2cf7b" font-weight="500">CAPITAL PARTNERS</text>
+  <line x1="778" y1="474" x2="912" y2="474" stroke="#d6a64b" stroke-width="3"/>
+  <line x1="464" y1="532" x2="536" y2="532" stroke="#d6a64b" stroke-width="3"/>
 </svg>
