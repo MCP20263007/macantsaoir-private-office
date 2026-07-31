@@ -1,16 +1,13 @@
-# MacAntsaoir Capital Partners V10 Principles Fixed
+# MacAntsaoir Capital Partners V11 Off-White Focus Background
 
-This version corrects the Our Principles strip.
+This version keeps the corrected V10 principles layout and changes the Investment Focus background to the warmer off-white colour used in the previous upload.
 
-## V10 changes
+## V11 changes
 
-- Fixed the principles layout so all four items are visible on desktop:
-  - Preserve Capital
-  - Think Long Term
-  - Build Partnerships
-  - Act with Discipline
-- Replaced the Build Partnerships icon with a clearer handshake icon.
-- Kept the new Investment Focus panel and Confidential Enquiries form.
+- Changed Investment Focus background to a flat warm off-white: `#eeeae2`.
+- Kept all four principles visible on desktop.
+- Kept the corrected Build Partnerships handshake icon.
+- Kept the new Confidential Enquiries form.
 - Kept the real London hero photo.
 - Kept the large MacAntsaoir Capital Partners logo with no decorative lines around CAPITAL PARTNERS.
 - No live Private Office wording appears in the active HTML, CSS, or logo file.
