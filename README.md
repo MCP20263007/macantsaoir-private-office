@@ -1,17 +1,15 @@
-# MacAntsaoir Capital Partners V8 New Sections
+# MacAntsaoir Capital Partners V9 Handshake Fixed
 
-This version replaces the old Our Principles, Investment Focus and Contact sections with the new uploaded layout.
+This version keeps the V8 section layout and fixes the Build Partnerships icon.
 
-## V8 changes
+## V9 changes
 
-- Replaced the old principles section with a horizontal dark navy principles strip.
-- Added gold line icons for Preserve Capital, Think Long Term, Build Partnerships and Act with Discipline.
-- Replaced the old investment focus cards with six cream-background icon columns.
-- Replaced the old contact area with a dark navy Confidential Enquiries form.
-- Updated the footer to match the uploaded section style.
+- Replaced the incorrect Build Partnerships icon with a clearer handshake icon.
+- Increased the handshake icon's visual weight slightly so it balances with the other principle icons.
+- Kept the new Our Principles strip, Investment Focus panel and Confidential Enquiries form.
 - Kept the real London hero photo.
 - Kept the large MacAntsaoir Capital Partners logo with no decorative lines around CAPITAL PARTNERS.
-- No live Private Office wording appears in the active HTML, CSS, or current logo file.
+- No live Private Office wording appears in the active HTML, CSS, or logo file.
 
 ## Upload structure
 
