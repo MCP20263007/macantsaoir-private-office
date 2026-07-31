@@ -1,17 +1,13 @@
-# MacAntsaoir Capital Partners V6 Mock-up Match
+# MacAntsaoir Capital Partners V7 No Logo Lines
 
-This version adjusts the hero section to match the uploaded visual reference more closely.
+This version keeps the V6 mock-up-matching layout but removes the decorative lines around CAPITAL PARTNERS.
 
-## V6 changes
+## V7 changes
 
-- Uses the real London photo as `assets/london-hero.jpg`.
-- Enlarges the central logo substantially, making the brand the main focal point.
-- Restores the logo treatment with icon, large MACANTSAOIR wordmark, CAPITAL PARTNERS beneath, gold side rules and a lower divider.
-- Removes the separate standalone `Capital Partners` line above the headline.
-- Changes the main wording to `Stewardship of Capital. / Legacy of Purpose.`
-- Updates the supporting copy to match the uploaded reference.
-- Reduces the headline size for a more elegant family office/private investment aesthetic.
-- Keeps all live branding as MacAntsaoir Capital Partners.
+- Removed the gold line before CAPITAL PARTNERS.
+- Removed the gold line after CAPITAL PARTNERS.
+- Removed the small gold line underneath CAPITAL PARTNERS.
+- Kept the large logo treatment, real London hero photo, and updated wording.
 - No live Private Office wording appears in the active HTML, CSS, or current logo file.
 
 ## Upload structure
