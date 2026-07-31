@@ -1,31 +1,24 @@
-# MacAntsaoir Capital Partners source pack
+# MacAntsaoir Capital Partners Version 2
 
-This is a clean GitHub Pages-ready version of the site.
+This package brightens the London skyline and keeps all live site branding as Capital Partners.
 
-## Files
+## Version 2 changes
 
-- `index.html`
-- `styles.css`
-- `assets/macantsaoir-logo.svg`
-- `assets/london-skyline.svg`
+- Brighter London skyline background: `assets/london-skyline-v2.svg`.
+- Lighter hero overlays so the skyline is clearly visible.
+- Stronger text shadows so the hero copy remains readable.
+- Larger central logo.
+- No live "Private Office" wording in `index.html`, `styles.css`, or the active logo.
 
-## Important fixes included
+## Upload structure for GitHub Pages
 
-- Replaced all visible "Private Office" wording with "Capital Partners".
-- Fixed the broken logo issue by using `assets/macantsaoir-logo.svg` consistently.
-- Removed filename spaces from asset paths, so GitHub Pages is less likely to break.
-- Fixed the CSS reset typo from `- { box-sizing: border-box; }` to `* { box-sizing: border-box; }`.
-- Included a self-contained skyline background so the hero does not rely on a missing JPG file.
-
-## Deploy to GitHub Pages
-
-Upload these files exactly as structured:
+Upload the contents of this ZIP exactly as structured:
 
 ```text
 index.html
 styles.css
 assets/macantsaoir-logo.svg
-assets/london-skyline.svg
+assets/london-skyline-v2.svg
 ```
 
-If you use a custom email address, replace `info@example.com` in `index.html`.
+Replace `info@example.com` in `index.html` with the correct contact email when ready.

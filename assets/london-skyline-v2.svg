@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b3152"/><stop offset=".43" stop-color="#102746"/><stop offset="1" stop-color="#061221"/></linearGradient>
+    <radialGradient id="cityGlow" cx="50%" cy="63%" r="72%"><stop offset="0" stop-color="#8eb0d0" stop-opacity=".22"/><stop offset=".42" stop-color="#3f628b" stop-opacity=".16"/><stop offset="1" stop-color="#061221" stop-opacity="0"/></radialGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#183453" stop-opacity=".55"/><stop offset="1" stop-color="#06101d" stop-opacity=".95"/></linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/><rect width="1920" height="1080" fill="url(#cityGlow)"/>
+  <g fill="#111d2d" opacity=".96">
+    <rect x="0" y="700" width="230" height="174"/><rect x="74" y="638" width="60" height="236"/><rect x="152" y="604" width="44" height="270"/>
+    <rect x="255" y="725" width="150" height="149"/><rect x="430" y="642" width="94" height="232"/><rect x="555" y="705" width="185" height="169"/>
+    <rect x="774" y="610" width="132" height="264"/><rect x="938" y="665" width="126" height="209"/>
+    <path d="M1162 874 L1264 210 L1368 874 Z" fill="#122135"/><rect x="1410" y="610" width="188" height="264"/><rect x="1620" y="685" width="168" height="189"/><rect x="1810" y="635" width="110" height="239"/>
+  </g>
+  <g fill="#ffdc88" opacity=".68">
+    <rect x="1188" y="644" width="24" height="7"/><rect x="1230" y="591" width="28" height="7"/><rect x="1274" y="545" width="30" height="7"/><rect x="1318" y="610" width="24" height="7"/><rect x="1210" y="720" width="30" height="7"/><rect x="1300" y="704" width="28" height="7"/>
+    <rect x="1450" y="682" width="36" height="7"/><rect x="1500" y="722" width="38" height="7"/><rect x="1550" y="664" width="30" height="7"/><rect x="1468" y="760" width="38" height="7"/><rect x="1530" y="795" width="44" height="7"/>
+    <rect x="790" y="675" width="38" height="7"/><rect x="820" y="730" width="32" height="7"/><rect x="560" y="755" width="36" height="7"/><rect x="640" y="720" width="32" height="7"/><rect x="952" y="715" width="32" height="7"/><rect x="992" y="748" width="36" height="7"/>
+    <rect x="1680" y="735" width="42" height="7"/><rect x="1718" y="775" width="36" height="7"/><rect x="1848" y="700" width="34" height="7"/><rect x="1888" y="740" width="28" height="7"/>
+  </g>
+  <path d="M0 870 C270 834 455 892 675 858 C875 828 1040 886 1220 852 C1433 813 1630 878 1920 838 V1080 H0 Z" fill="url(#river)" opacity=".94"/>
+  <g opacity=".35" stroke="#f2cf7b" stroke-width="3">
+    <path d="M1110 920 C1190 938 1270 938 1360 916"/><path d="M1420 938 C1510 960 1640 958 1750 930"/><path d="M620 940 C760 970 900 960 1030 934"/>
+  </g>
+</svg>
