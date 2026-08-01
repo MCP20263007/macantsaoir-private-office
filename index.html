@@ -105,14 +105,38 @@ document.getElementById("enquiryForm").addEventListener("submit", async function
 
         if (response.ok) {
             alert("Thank you. Your enquiry has been submitted.");
-            document.getElementById("enquiryForm").reset();
-        } else {
-            alert("Submission failed.");
-        }
+            <script>
+document.getElementById("enquiryForm").addEventListener("submit", async function(e) {
+    e.preventDefault();
+
+    const form = document.getElementById("enquiryForm");
+
+    const data = {
+        name: document.querySelector('[name="name"]').value,
+        email: document.querySelector('[name="email"]').value,
+        telephone: document.querySelector('[name="telephone"]').value,
+        message: document.querySelector('[name="message"]').value,
+        submittedAt: new Date().toISOString()
+    };
+
+    try {
+        await fetch("https://defaultc250d70c81bb4763892e4c6b4e6f4f.e5.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/07/workflows/96d1659ab0a3489d94bb9618e246b562/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=G4KFlXLFcCAFfNIrK_UzX-anp6wc01HZlwGvvujqoFw", {
+            method: "POST",
+            mode: "no-cors",
+            headers: {
+                "Content-Type": "text/plain"
+            },
+            body: JSON.stringify(data)
+        });
+
+        alert("Thank you. Your enquiry has been submitted.");
+        form.reset();
+
     } catch (error) {
-        alert("Submission failed.");
+        alert("Submission failed. Please email paul.wright@macantsaoir.com directly.");
     }
 });
+</script>
 </script>
 </body>
 </html>
