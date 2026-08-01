@@ -96,14 +96,12 @@ document.getElementById("enquiryForm").addEventListener("submit", function(e) {
         submittedAt: new Date().toISOString()
     };
 
-    const url = "https://defaultc250d70c81bb4763892e4c6b4e6f4f.e5.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/07/workflows/96d1659ab0a3489d94bb9618e246b562/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=G4KFlXLFcCAFfNIrK_UzX-anp6wc01HZlwGvvujqoFw";
-
-    const blob = new Blob([JSON.stringify(data)], {
-        type: "application/json"
+    fetch("https://defaultc250d70c81bb4763892e4c6b4e6f4f.e5.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/07/workflows/96d1659ab0a3489d94bb9618e246b562/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=G4KFlXLFcCAFfNIrK_UzX-anp6wc01HZlwGvvujqoFw", {
+        method: "POST",
+        mode: "no-cors",
+        keepalive: true,
+        body: JSON.stringify(data)
     });
-
-    const sent = navigator.sendBeacon(url, blob);
-alert(sent ? "BEACON SENT" : "BEACON NOT SENT");
 
     alert("Thank you. Your enquiry has been submitted.");
     form.reset();
