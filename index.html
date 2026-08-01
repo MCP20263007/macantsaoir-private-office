@@ -108,8 +108,20 @@ fetch("https://defaultc250d70c81bb4763892e4c6b4e6f4f.e5.environment.api.powerpla
 })
 .then(response => {
     if (response.ok) {
-        alert("Thank you. Your enquiry has been submitted.");
-        form.reset();
+
+        form.innerHTML = `
+            <div style="text-align:center;padding:20px 10px;">
+                <h3 style="color:#d6a64b;margin-bottom:10px;">
+                    Thank You
+                </h3>
+
+                <p style="color:#ffffff;">
+                    Your enquiry has been submitted successfully.
+                    We will respond as soon as possible.
+                </p>
+            </div>
+        `;
+
     }
 })
 .catch(error => {
