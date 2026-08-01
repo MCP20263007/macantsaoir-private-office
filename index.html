@@ -98,13 +98,19 @@ document.getElementById("enquiryForm").addEventListener("submit", function(e) {
 
     alert("BEFORE FETCH");
 
-fetch("YOUR_POWER_AUTOMATE_URL", {
+fetch("https://defaultc250d70c81bb4763892e4c6b4e6f4f.e5.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/07/workflows/96d1659ab0a3489d94bb9618e246b562/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=G4KFlXLFcCAFfNIrK_UzX-anp6wc01HZlwGvvujqoFw", {
     method: "POST",
     mode: "cors",
     headers: {
         "Content-Type": "application/json"
     },
     body: JSON.stringify(data)
+})
+.then(response => {
+    alert("STATUS: " + response.status);
+})
+.catch(error => {
+    alert("ERROR");
 });
 
 alert("AFTER FETCH");
