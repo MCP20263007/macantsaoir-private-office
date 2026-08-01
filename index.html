@@ -96,14 +96,18 @@ document.getElementById("enquiryForm").addEventListener("submit", function(e) {
         submittedAt: new Date().toISOString()
     };
 
-    fetch("https://....", {
+    alert("BEFORE FETCH");
+
+fetch("YOUR_POWER_AUTOMATE_URL", {
     method: "POST",
     mode: "cors",
     headers: {
         "Content-Type": "application/json"
     },
     body: JSON.stringify(data)
-})
+});
+
+alert("AFTER FETCH");
 .then(response => {
     alert("STATUS: " + response.status);
 })
