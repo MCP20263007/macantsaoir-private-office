@@ -82,8 +82,8 @@ SUBMIT ENQUIRY
       <p>London, United Kingdom</p><p>© 2026 MacAntsaoir Capital Partners. All rights reserved.</p>
     </footer>
   </main>
- <script>
-document.getElementById("enquiryForm").addEventListener("submit", async function(e) {
+<script>
+document.getElementById("enquiryForm").addEventListener("submit", function(e) {
     e.preventDefault();
 
     const form = document.getElementById("enquiryForm");
@@ -96,23 +96,18 @@ document.getElementById("enquiryForm").addEventListener("submit", async function
         submittedAt: new Date().toISOString()
     };
 
-    try {
-        await fetch("https://defaultc250d70c81bb4763892e4c6b4e6f4f.e5.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/07/workflows/96d1659ab0a3489d94bb9618e246b562/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=G4KFlXLFcCAFfNIrK_UzX-anp6wc01HZlwGvvujqoFw", {
-            method: "POST",
-            mode: "no-cors",
-            headers: {
-                "Content-Type": "text/plain"
-            },
-            body: JSON.stringify(data)
-        });
+    const url = "https://defaultc250d70c81bb4763892e4c6b4e6f4f.e5.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/07/workflows/96d1659ab0a3489d94bb9618e246b562/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=G4KFlXLFcCAFfNIrK_UzX-anp6wc01HZlwGvvujqoFw";
 
-        alert("Thank you. Your enquiry has been submitted.");
-        form.reset();
+    const blob = new Blob([JSON.stringify(data)], {
+        type: "application/json"
+    });
 
-    } catch (error) {
-        alert("Submission failed. Please email paul.wright@macantsaoir.com directly.");
-    }
+    navigator.sendBeacon(url, blob);
+
+    alert("Thank you. Your enquiry has been submitted.");
+    form.reset();
 });
 </script>
+
 </body>
 </html>
