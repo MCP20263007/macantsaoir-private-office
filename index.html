@@ -73,7 +73,7 @@ investment professionals.
 <button type="submit">
 SUBMIT ENQUIRY
 </button>
-</button>
+
 </form>
 </aside>
 
@@ -82,30 +82,7 @@ SUBMIT ENQUIRY
       <p>London, United Kingdom</p><p>© 2026 MacAntsaoir Capital Partners. All rights reserved.</p>
     </footer>
   </main>
-  <script>
-document.getElementById("enquiryForm").addEventListener("submit", async function(e) {
-    e.preventDefault();
-
-    const data = {
-        name: document.querySelector('[name="name"]').value,
-        email: document.querySelector('[name="email"]').value,
-        telephone: document.querySelector('[name="telephone"]').value,
-        message: document.querySelector('[name="message"]').value,
-        submittedAt: new Date().toISOString()
-    };
-
-    try {
-        const response = await fetch("https://defaultc250d70c81bb4763892e4c6b4e6f4f.e5.environment.api.powerplatform.com:443/powerautomate/automations/direct/cu/07/workflows/96d1659ab0a3489d94bb9618e246b562/triggers/manual/paths/invoke?api-version=1&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=G4KFlXLFcCAFfNIrK_UzX-anp6wc01HZlwGvvujqoFw", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(data)
-        });
-
-        if (response.ok) {
-            alert("Thank you. Your enquiry has been submitted.");
-            <script>
+ <script>
 document.getElementById("enquiryForm").addEventListener("submit", async function(e) {
     e.preventDefault();
 
@@ -136,7 +113,6 @@ document.getElementById("enquiryForm").addEventListener("submit", async function
         alert("Submission failed. Please email paul.wright@macantsaoir.com directly.");
     }
 });
-</script>
 </script>
 </body>
 </html>
