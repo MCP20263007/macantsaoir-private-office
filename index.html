@@ -69,7 +69,9 @@ investment professionals.
 
 <label>MESSAGE</label>
 <textarea name="message" placeholder="Your message"></textarea>
-
+  
+<input type="text" name="website" style="display:none;">
+  
 <button type="submit">
 SUBMIT ENQUIRY
 </button>
@@ -85,6 +87,9 @@ SUBMIT ENQUIRY
 <script>
 document.getElementById("enquiryForm").addEventListener("submit", function(e) {
     e.preventDefault();
+if (document.querySelector('[name="website"]').value !== "") {
+    return;
+}
 
     const form = document.getElementById("enquiryForm");
 
